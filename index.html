@@ -47,21 +47,21 @@
   <body class="font-sora">
     <!-- Header Section-->
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mb-[233px]">
-      <div class="mx-32">
+      <div class="">
         <nav class="">
-          <div class="navbar bg-base-100">
-            <div class="">
-              <div class=" ">
-                <img class="sm:my-6" src="c2-assets/logo-header.png" alt="" />
+          <div class="navbar bg-base-100 border-b lg:border-none border-green-500 w-full">
+            <div class="lg:flex items-center justify-between sm:justify-between w-full">
+              <div class=" lg:flex items-center">
+                <img class="container sm:my-6 h-10 w-20 lg:h-20 lg:w-40" src="c2-assets/logo-header.png" alt="" />
               </div>
-              <div class="navbar-start">
+              <div class="lg:hidden mr-10">
                 <div class="dropdown">
                   <div
                     tabindex="0"
                     role="button"
-                    class="btn btn-ghost lg:hidden"
+                    class="btn btn-ghost"
                   >
-                    <svg
+                    <!-- <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-5 w-5"
                       fill="none"
@@ -74,7 +74,8 @@
                         stroke-width="2"
                         d="M4 6h16M4 12h8m-8 6h16"
                       />
-                    </svg>
+                    </svg> -->
+                    <i class="fa-solid fa-bars fa-xl" style="color: #0fae2f;"></i>
                   </div>
                   <ul
                     tabindex="0"
@@ -120,12 +121,12 @@
         <section class="flex flex-col text-center items-center gap-7 my-24">
           <!-- Hero Content -->
           <div>
-            <h1 class="text-6xl">
+            <h1 class="lg:text-6xl text-3xl w-[341px] h-[120px] lg:w-[950px] lg:h-[150px] mx-auto my-2">
               Freshness <span class="text-green-color">You Can </span
               ><br /><span class="text-green-color">Count</span>
               On, Prices You'll Love!
             </h1>
-            <p class="my-8">
+            <p class="my-8 w-[349px] h-[60px] lg:w-[800px] lg:h-[50px] lg:mx-auto">
               Shop your daily essentials at unbeatable prices. From fresh
               produce to pantry <br />
               staples, we've got you covered every day!
@@ -141,7 +142,7 @@
     </header>
 
     <!-- Main Section-->
-    <main>
+    <main class="hidden">
       <!-- services section -->
       <section class="lg:mx-32 mb-[144px] mx-6">
         <!-- section head -->
@@ -549,7 +550,7 @@
     </main>
 
     <!-- Footer Section-->
-    <footer>
+    <footer class="hidden">
         <div class="flex justify-around align-bottom text-center bg-[#179800] text-white">
             <div class="mt-[370px] ml-[140px] mb-[141px]">
                 <img src="c2-assets/logo-footer.png" alt="footer logo">
